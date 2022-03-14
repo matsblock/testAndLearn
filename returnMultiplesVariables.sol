@@ -9,7 +9,7 @@ contract sample
     string public sTest;
 
     function test() public {
-        (uTest, sTest) = a(); 
+        (iTest, sTest) = a(); 
      }
 
     function a() public returns (int a, string memory c) 
